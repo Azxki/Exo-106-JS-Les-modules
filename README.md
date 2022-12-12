@@ -5,16 +5,19 @@ Le fichier qui contiendra votre module est HTML.js, le fichier qui l'utilisera e
 2. Créez un module vous permettant de faciliter la création d'éléments HTML, le module doit contenir:
 
         1. Une fonction qui crée et retourne un div ==> createDiv(vos paramètres)
-        2. Une fonction qui crée et retourne un champs input, le type devra pouvoir être choisi ==> createInput(vos paramètres)
+        2. Une fonction qui crée et retourne un champs input, le type devra pouvoir être
+           choisi ==> createInput(vos paramètres)
         3. Une fonction qui crée et retourne un label ==> createLabel(vos paramètres)
 
         Attention, TOUT doit être défini dans les fonctions:
             1. Le texte du innerHTML ou du textContent
             2. Le type ( pour l'input )
             3. La value ( pour l'input )
-            4. La classe CSS à utiliser pour l'élément ( non obligatoire, uniquement si vous utilisez du CSS ).
+            4. La classe CSS à utiliser pour l'élément ( non obligatoire, uniquement si vous 
+               utilisez du CSS ).
 
-        Attention 2: Retournez les éléments créés, mais ne les ajoutez pas au DOM ( pas de document.getElem..().append() dans le module )
+        Attention 2: Retournez les éléments créés, mais ne les ajoutez pas au DOM 
+        ( pas de document.getElem..().append() dans le module )
 
 3. Importez toutes vos fonctions dans le fichier app.js
 
